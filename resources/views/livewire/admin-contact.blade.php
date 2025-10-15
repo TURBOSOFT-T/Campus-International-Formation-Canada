@@ -189,7 +189,7 @@
                     <label class="form-label" for="multicol-username">Description </label>
 
                     <textarea type="text" id="des_apropos1" wire:model="des_apropos1" placeholder="La description" rows="3"
-                        class="form-control">{!! $des_apropos1!!} </textarea>
+                        class="form-control"> {!! $des_apropos1 !!} </textarea>
                     @error('des_apropos1')
                         <span class="text-danger small"> {{ $message }} </span>
                     @enderror
