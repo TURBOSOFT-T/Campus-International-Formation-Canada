@@ -145,7 +145,7 @@ class DatabaseSeeder extends Seeder
         //  $cat->frais = '15';
         $cat->description = 'Bienvenue à Campus Québec International, votre passerelle vers l\'intégration au Canada.';
         $cat->telephone = '672958053';
-        $cat->email = 'Info@campusifc.com';
+        $cat->email = 'Info@campusifc.ca';
         $cat->addresse = '168 Bd Saint-Jean-Baptiste';
 
         $cat->save();
