@@ -12,7 +12,7 @@
 
     <head>
         @section('offres')
-        <meta name="author" content="belle.com">
+       {{--  <meta name="author" content="belle.com"> --}}
         <meta property="og:title" content="{{ $blog->nom }}">
         <meta property="og:description" content="{{ $blog->description ?? '' }}">
         <meta property="og:image" content="{{ $blog->image }}">

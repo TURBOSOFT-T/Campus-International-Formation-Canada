@@ -17,7 +17,7 @@
 
  <head>
     @section('formation')
-        <meta name="author" content="belle.com">
+       {{--  <meta name="author" content="belle.com"> --}}
         <meta property="og:title" content="{{ $formation->nom }}">
         <meta property="og:description" content="{{ $formation->description ?? '' }}">
         <meta property="og:image" content="{{ $formation->photo }}">

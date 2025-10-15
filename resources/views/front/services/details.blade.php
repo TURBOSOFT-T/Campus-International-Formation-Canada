@@ -9,7 +9,7 @@
 
 <head>
     @section('services')
-        <meta name="author" content="belle.com">
+       {{--  <meta name="author" content="belle.com"> --}}
         <meta property="og:title" content="{{ $service->nom }}">
         <meta property="og:description" content="{{ $service->description ?? '' }}">
          <meta property="og:meta_description" content="{{ $service->meta_description ?? '' }}">
