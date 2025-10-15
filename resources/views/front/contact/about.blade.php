@@ -163,11 +163,11 @@
                     <div class="col-xl-7 col-lg-6 col-md-6">
                         <div class="faq">
                             <div id="faq" class="accordion">
-                                <h6 class="subtitle wow fadeInLeft animated" data-wow-delay=".1s">Have Any Question
-                                     {{ \App\Helpers\TranslationHelper::TranslateText('Pour chaque question') }}
+                                <h6 class="subtitle wow fadeInLeft animated" data-wow-delay=".1s">
+                                     {{ \App\Helpers\TranslationHelper::TranslateText('❓ Vous avez des questions ?') }}
                                 </h6>
-                                <h2 class="title mb-40 wow fadeInLeft animated" data-wow-delay=".2s">Frequently Ask Question
-
+                                <h2 class="title mb-40 wow fadeInLeft animated" data-wow-delay=".2s">
+ {{ \App\Helpers\TranslationHelper::TranslateText('Questions fréquemment posées (FAQ)') }}
                                 </h2>
 
                                 <div class="card wow fadeInLeft animated" data-wow-delay=".2s">
