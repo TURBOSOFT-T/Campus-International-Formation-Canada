@@ -389,13 +389,7 @@ class HomeController extends Controller
 
 
       
-       public function tracking_services(){
    
-    
-          // $current_category = Category::with(['services.images'])->findOrFail($id);
-
-        return view('front.services.tracking');
-      }
 
 
       public function details_services($id){
