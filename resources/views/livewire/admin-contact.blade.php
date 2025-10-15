@@ -185,7 +185,7 @@
                     @enderror
                 </div>
 
-                <div class="col-md-12">
+                <div  wire:ignore class="col-md-12">
                     <label class="form-label" for="multicol-username">Description </label>
 
                     <textarea type="text" id="des_apropos1" wire:model="des_apropos1" placeholder="La description" rows="3"
