@@ -55,7 +55,7 @@
                                 {{-- <p class="blog-details__text-1">Real estate is a lucrative industry that involves the
                                     buying selling and renting properties It encompasses residential commercial and
                                     industrial designsin properties. Real estate agents play a crucial</p> --}}
-                                <p class="blog-details__text-2"> {!! \App\Helpers\TranslationHelper::TranslateText($formation->description) !!}
+                                <p class="blog-details__text-2"  style=" font-family: 'Times New Roman';color: black;font-size: 18px; line-height: 2; text-align: justify;"> {!! \App\Helpers\TranslationHelper::TranslateText($formation->description) !!}
                                 </p>
                                 <div class="blog-details__quote-box">
                                     <div class="blog-details__quote-icon">
@@ -63,7 +63,7 @@
                                     </div>
                                     {{-- <h3 class="blog-details__quote-box-client-name">Mark wood</h3>
                                     <p class="blog-details__quote-box-sub-title">CEO</p> --}}
-                                    <p class="blog-details__quote-box-text">
+                                    <p class="blog-details__quote-box-text"  style=" font-family: 'Times New Roman';color: black;font-size: 18px; line-height: 2; text-align: justify;">
 
                                          {{ \App\Helpers\TranslationHelper::TranslateText($formation->meta_description) }}
                                     </p>

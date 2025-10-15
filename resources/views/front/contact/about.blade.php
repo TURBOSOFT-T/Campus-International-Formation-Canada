@@ -7,26 +7,15 @@
        
     @endphp
 
-<!--[if lte IE 9]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-<![endif]-->
-
 
 
 <!-- Body main wrapper start -->
 <main>
 
-{{-- <div class="breadcrumb__area breadcrumb-space overflow-hidden d-flex align-items-center justify-content-center" 
-     style="background: url('{{ asset('storage/' . $config->imageenteteabout) }}') center center / contain no-repeat; 
-            width: 100%; 
-            min-height: 600px; 
-            height: auto;"> --}}
+
                 <div class="breadcrumb__area breadcrumb-space overflow-hidden" style="background: url('{{ asset('storage/' .$config->imageenteteabout) }}')  center center / cover no-repeat;  height: 600px;">
 
-           {{--  <div class="breadcrumb__area breadcrumb-space overflow-hidden d-flex align-items-center justify-content-center">
-    <img src="{{ asset('storage/' . $config->imageenteteabout) }}" 
-         alt="Bannière"
-         style="width: 100%; height: auto; object-fit: contain;"> --}}
+         
     <div class="banner-home__middel-shape inner-top-shape"></div>
     <div class="container">
         <div class="banner-all-shape-wrapper">
@@ -118,24 +107,9 @@
                         <h6 class="subtitle wow fadeInLeft animated" data-wow-delay=".3s">
                              {{ \App\Helpers\TranslationHelper::TranslateText('Pourquoi nous choisir') }}
                         </h6>
-                      {{--   <h2 class="title wow fadeInLeft animated" data-wow-delay=".4s"> {{ \App\Helpers\TranslationHelper::TranslateText($config->titre_apropos1 ?? '') }}</h2>
-                       --}}  <p  style=" font-family: 'Times New Roman';color: black;font-size: 18px; line-height: 2; text-align: justify;" class="wow fadeInLeft animated" data-wow-delay=".2s"> {!! \App\Helpers\TranslationHelper::TranslateText($config->des_apropos1 ?? ' ') !!}</p>
+                    <p  style=" font-family: 'Times New Roman';color: black;font-size: 18px; line-height: 2; text-align: justify;" class="wow fadeInLeft animated" data-wow-delay=".2s"> {!! \App\Helpers\TranslationHelper::TranslateText($config->des_apropos1 ?? ' ') !!}</p>
 
-                 {{--        <div class="latest-Choose-us__content-text d-flex">
-                            <div class="latest-Choose-us__content-text-box wow fadeInLeft animated" data-wow-delay=".2s">
-                                <ul>
-                                    <li><i class="fa-solid fa-circle-check"></i>Printed in full-color</li>
-                                    <li><i class="fa-solid fa-circle-check"></i>Variety of paper sizes</li>
-                                    <li><i class="fa-solid fa-circle-check"></i>Double-sided</li>
-                                    <li><i class="fa-solid fa-circle-check"></i>Optional finishing</li>
-                                    <li><i class="fa-solid fa-circle-check"></i>Professional Designs</li>
-                                    <li><i class="fa-solid fa-circle-check"></i>Quality Assurance By Expertise</li>
-                                </ul>
-                            </div>
-                        </div> --}}
-                       {{--  <div class="latest-Choose-us__content-btn wow fadeInLeft animated" data-wow-delay=".4s">
-                            <a href="about-us.html" class="rr-btn">Read More</a>
-                        </div> --}}
+                 
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-5">

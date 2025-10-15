@@ -185,7 +185,7 @@
                         <br> --}}
                         <div class="latest-about2__content-description">
 
-                            <p class="wow fadeInLeft animated" data-wow-delay="1s"> {!! \App\Helpers\TranslationHelper::TranslateText($config->slogan_apropos) !!}</p>
+                            <p class="wow fadeInLeft animated" data-wow-delay="1s" style=" font-family: 'Times New Roman';color: black;font-size: 18px; line-height: 2; text-align: justify;"> {!! \App\Helpers\TranslationHelper::TranslateText($config->slogan_apropos) !!}</p>
                         </div>
 
                     </div>

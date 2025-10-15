@@ -74,9 +74,9 @@
 
                         <h2 class="service-details-content-title">{!! \App\Helpers\TranslationHelper::TranslateText( $service->nom) !!}</h2>
                         <br>
-<p> {!! \App\Helpers\TranslationHelper::TranslateText( $service->meta_description ?? '') !!}</p>
+<p  style=" font-family: 'Times New Roman';color: black;font-size: 18px; line-height: 2; text-align: justify;"> {!! \App\Helpers\TranslationHelper::TranslateText( $service->meta_description ?? '') !!}</p>
                         
-                        <br><br> <p>
+                        <br><br> <p  style=" font-family: 'Times New Roman';color: black;font-size: 18px; line-height: 2; text-align: justify;">
                             {!! \App\Helpers\TranslationHelper::TranslateText( $service->description ?? '') !!}
                         </p>
                       

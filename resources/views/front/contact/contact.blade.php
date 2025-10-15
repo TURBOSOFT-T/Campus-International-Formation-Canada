@@ -27,19 +27,7 @@ $config = DB::table('configs')->first();
             </div>
             <div class="row align-items-center justify-content-between">
                 <div class="col-12">
-                    {{-- <div class="breadcrumb__content text-center">
-                        <div class="breadcrumb__title-wrapper mb-15 mb-sm-10 mb-xs-5">
-                            <h1 class="breadcrumb__title color-white wow fadeIn animated" data-wow-delay=".1s">{{ \App\Helpers\TranslationHelper::TranslateText('Nous contactez') }}</h1>
-                </div>
-                <div class="breadcrumb__menu wow fadeIn animated" data-wow-delay=".5s">
-                    <nav>
-                        <ul>
-                            <li><span><a href="{{ route('home') }}">{{ \App\Helpers\TranslationHelper::TranslateText('Accueil') }}</a></span></li>
-                            <li class="active"><span>{{ \App\Helpers\TranslationHelper::TranslateText('Contact') }}</span></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>> --}}
+               
         </div>
     </div>
     </div>
@@ -173,10 +161,7 @@ $config = DB::table('configs')->first();
                 @if($configs->localisation)
                 <iframe src="{{$configs->localisation}}" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 @else
-                {{-- <p>
-
-                {{ \App\Helpers\TranslationHelper::TranslateText('Aucune localisation disponible') }}
-                </p> --}}
+             
                 <iframe src="https://maps.google.com/maps?q=168+Bd+Saint-Jean-Baptiste,+Châteauguay,+QC+J6K+3B5,+Canada+%26+Co.+KG&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
                 @endif
