@@ -93,7 +93,7 @@
 
                             <div class="search">
                                  @foreach ($services as $service )
-                                <a href="{{ route('details-services', ['id' => $service->id, 'slug'=>Str::slug(Str::limit($service->nom, 10))]) , }}">
+                                <a href="{{ route('details-services', ['id' => $service->id, 'slug'=>Str::slug(Str::limit($service->nom, 10))])}}">
                                     <div class="search-bar main-search d-flex mb-20">
                                         <h6> {{ \App\Helpers\TranslationHelper::TranslateText($service->nom) }}</h6>
                                         <span>
