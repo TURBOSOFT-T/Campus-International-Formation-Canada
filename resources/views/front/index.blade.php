@@ -180,9 +180,9 @@
                     <div class="latest-about2__content">
                         <h3 class="subtitle wow fadeInLeft animated"  style="color: #4e73b7;"  data-wow-delay=".8s"> {{ \App\Helpers\TranslationHelper::TranslateText($config->titre_home ) }}</h3>
 
-<br>
-                        <h3 class="title wow fadeInLeft animated" style="color: #db7354"   data-wow-delay=".8s"> {{ \App\Helpers\TranslationHelper::TranslateText($config->sous_titre_home) }}</h3>
-                        <br>
+
+                      {{--   <h3 class="title wow fadeInLeft animated" style="color: #db7354"   data-wow-delay=".8s"> {{ \App\Helpers\TranslationHelper::TranslateText($config->sous_titre_home) }}</h3>
+                        <br> --}}
                         <div class="latest-about2__content-description">
 
                             <p class="wow fadeInLeft animated" data-wow-delay="1s"> {!! \App\Helpers\TranslationHelper::TranslateText($config->slogan_apropos) !!}</p>
