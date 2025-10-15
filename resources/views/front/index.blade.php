@@ -21,6 +21,7 @@
         });
 
     </script>
+    
 <style>
     .banner {
     position: relative;
@@ -87,9 +88,34 @@
         font-size: 1rem;
     }
 }
+.banner__thumb-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 0;
+        /* Optionnel : overlay clair supplémentaire */
+        /* filter: brightness(0.7); déjà appliqué inline */
+    }
 
+    /* Responsive */
+    @media (max-width: 1024px) {
+        .banner { height: 400px; }
+        .banner__title { font-size: 2.5rem; }
+        .banner__content p { font-size: 1.1rem; }
+    }
+
+    @media (max-width: 768px) {
+        .banner { height: 300px; }
+        .banner__title { font-size: 1.8rem; }
+        .banner__content p { font-size: 1rem; }
+    }
 </style>
-    <!-- Banner area start -->
+   
     <section class="banner__area p-relative z-1">
         <div class="swiper banner_parallax-slider p-relative">
             <div class="swiper-wrapper">
