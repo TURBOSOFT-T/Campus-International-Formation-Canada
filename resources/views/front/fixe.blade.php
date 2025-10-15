@@ -21,8 +21,8 @@ $categories = DB::table('categories')->get();
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <meta name="description" content="Campus-International-Formation-Canada">
-    <meta name="description" content="Campus-International-Formation-Canada : votre passerelle linguistique vers une intégration réussie au Canada. Formations en français, préparation aux tests officiels et accompagnement pour vos projets d'études ou d'immigration.">
-
+  {{--   <meta name="description" content="Campus-International-Formation-Canada : votre passerelle linguistique vers une intégration réussie au Canada. Formations en français, préparation aux tests officiels et accompagnement pour vos projets d'études ou d'immigration.">
+ --}}
     <meta name="author" content="soukhinkhan">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico in the root directory -->
