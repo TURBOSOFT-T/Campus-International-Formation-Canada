@@ -143,9 +143,7 @@ class DatabaseSeeder extends Seeder
 
         $cat = new config();
         //  $cat->frais = '15';
-        $cat->description = 'Une solution de géolocalisation par GPS Tracking
-et de gestion de flotte automobiles, développée par
-la société TCHYCO INTERNATIONAL SARL.';
+        $cat->description = 'Bienvenue à Campus Québec International, votre passerelle vers l\'intégration au Canada.';
         $cat->telephone = '676 349 104';
         $cat->email = 'contact@gmail.com';
         $cat->addresse = '168 Bd Saint-Jean-Baptiste';
