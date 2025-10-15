@@ -185,7 +185,7 @@ $categories = DB::table('categories')->get();
 
                                         </li>
                                         <li class="has-dropdown ">
-                                            <a href="javascript:void(0)">{{ \App\Helpers\TranslationHelper::TranslateText('Nos Services') }}</a>
+                                            <a href="javascript:void(0)">{{ \App\Helpers\TranslationHelper::TranslateText('Nos activités') }}</a>
                                             <ul class="submenu">
                                                 @foreach ($catServices as $category)
 
