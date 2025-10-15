@@ -60,8 +60,8 @@
                         <h6 class="latest-about2__content-subtitle">
                              {{ \App\Helpers\TranslationHelper::TranslateText('A propos de nous') }}
                         </h6>
-                        <h2 class="latest-about2__content-title">  {{ \App\Helpers\TranslationHelper::TranslateText($config->titre_apropos ?? '') }}</h2>
-                        <div class="latest-about2__content-description">
+                      {{--   <h2 class="latest-about2__content-title">  {{ \App\Helpers\TranslationHelper::TranslateText($config->titre_apropos ?? '') }}</h2>
+                      --}}   <div class="latest-about2__content-description">
                             <p  style=" font-family: 'Times New Roman';color: black;font-size: 18px; line-height: 2; text-align: justify;">
                               {{--  {!!  $config->des_apropos !!}  --}}
                                 {!! \App\Helpers\TranslationHelper::TranslateText($config->des_apropos ?? '') !!}
