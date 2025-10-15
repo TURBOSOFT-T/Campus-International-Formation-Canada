@@ -118,8 +118,8 @@
                         <h6 class="subtitle wow fadeInLeft animated" data-wow-delay=".3s">
                              {{ \App\Helpers\TranslationHelper::TranslateText('Pourquoi nous choisir') }}
                         </h6>
-                        <h2 class="title wow fadeInLeft animated" data-wow-delay=".4s"> {{ \App\Helpers\TranslationHelper::TranslateText($config->titre_apropos1 ?? '') }}</h2>
-                        <p  style=" font-family: 'Times New Roman';color: black;font-size: 18px; line-height: 2; text-align: justify;" class="wow fadeInLeft animated" data-wow-delay=".2s"> {!! \App\Helpers\TranslationHelper::TranslateText($config->des_apropos1 ?? ' ') !!}</p>
+                      {{--   <h2 class="title wow fadeInLeft animated" data-wow-delay=".4s"> {{ \App\Helpers\TranslationHelper::TranslateText($config->titre_apropos1 ?? '') }}</h2>
+                       --}}  <p  style=" font-family: 'Times New Roman';color: black;font-size: 18px; line-height: 2; text-align: justify;" class="wow fadeInLeft animated" data-wow-delay=".2s"> {!! \App\Helpers\TranslationHelper::TranslateText($config->des_apropos1 ?? ' ') !!}</p>
 
                  {{--        <div class="latest-Choose-us__content-text d-flex">
                             <div class="latest-Choose-us__content-text-box wow fadeInLeft animated" data-wow-delay=".2s">
