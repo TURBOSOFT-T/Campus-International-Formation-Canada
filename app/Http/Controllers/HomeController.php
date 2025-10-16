@@ -379,14 +379,7 @@ class HomeController extends Controller
         return view('front.services.all', compact('services','configs'));
       }
 
-       public function btp_services(){
-   
-    
-          // $current_category = Category::with(['services.images'])->findOrFail($id);
-
-        return view('front.services.btp');
-      }
-
+     
 
       
    
