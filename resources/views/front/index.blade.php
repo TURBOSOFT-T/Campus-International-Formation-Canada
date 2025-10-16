@@ -90,22 +90,22 @@
                     <div class="banner banner__space">
                         <div class="banner__thumb-bg" data-background="{{ Storage::url($banner->image) }} "></div>
                         <div class="container">
-                            <div class="banner__space-shape-wrapper">
+                            {{-- <div class="banner__space-shape-wrapper">
                                 <div class="banner__space-shape-wrapper-top-black-shape">
                                 </div>
                                 <div class="banner__space-shape-wrapper-bottom-shape">
                                 </div>
-                            </div>
+                            </div> --}}
                             <div class="row">
                                 <div class="col-xxl-9 col-xl-9 col-lg-10">
-                                    <div class="banner__content p-relative z-index-1">
+                                    <div class="banner__content p-relative z-index-1 texte-center">
                                         <span class="banner__sub-title wow fade-in-bottom" data-wow-delay="200ms"></span>
                                         <br>
                                         <br>
                                         <br>
-                                        <h2 class="banner__title wow fade-in-bottom" data-wow-delay="400ms">
+                                        <h2 class="banner__title wow fade-in-bottom animated slideInRight" data-wow-delay="400ms">
                                             {{ $banner->titre ?? '' }}</h2>
-                                        <p style=" font-family: 'Times New Roman'; color:#ffffff;font-size: 22px; line-height: 2; text-align:center;" class="h5 wow fade-in-bottom" data-wow-delay="400ms">
+                                        <p style=" font-family: 'Times New Roman'; color:#ffffff;font-size: 22px; line-height: 2; text-align:center;" class="h5 wow fade-in-bottom animated slideInRight" data-wow-delay="400ms">
                                             {{ $banner->sous_titre ?? '' }}</p>
 
 
@@ -119,7 +119,7 @@
 
             </div>
 
-            <!-- If we need navigation buttons -->
+            
             <div class="banner__navigation d-none d-lg-block">
                 <button class="banner__button-next"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M19 10H1" stroke="#001D08" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
