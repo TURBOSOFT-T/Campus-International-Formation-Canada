@@ -81,7 +81,7 @@
                             <img  src="{{ Storage::url($service->image) }}" alt="img not found">
                         </div>
                         <div class="latest-service__item-title">
-                            <a href="{{ route('details-services', ['id' => $service->id, 'slug'=>Str::slug(Str::limit($service->nom, 10))]) , }}"><h4>{{ \App\Helpers\TranslationHelper::TranslateText($service->nom) }}</h4></a>
+                            <a href="{{ route('details-services', ['id' => $service->id, 'slug'=>Str::slug(Str::limit($service->nom, 10))])}}"><h4>{{ \App\Helpers\TranslationHelper::TranslateText($service->nom) }}</h4></a>
                         </div>
                         <div class="latest-service__item-text">
                             <p style=" font-family: 'Times New Roman';color: black;font-size: 18px; line-height: 2; text-align: justify;" >{{ \App\Helpers\TranslationHelper::TranslateText($service->meta_description) }}</p>
