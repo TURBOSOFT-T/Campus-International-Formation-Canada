@@ -77,43 +77,9 @@
     }
 }
 
-@media (max-width: 768px) {
-    .banner {
-        height: 300px;
-    }
-    .banner__title {
-        font-size: 1.8rem;
-    }
-    .banner__content p {
-        font-size: 1rem;
-    }
-}
-.banner__thumb-bg {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        z-index: 0;
-        /* Optionnel : overlay clair supplémentaire */
-        /* filter: brightness(0.7); déjà appliqué inline */
-    }
 
-    /* Responsive */
-    @media (max-width: 1024px) {
-        .banner { height: 400px; }
-        .banner__title { font-size: 2.5rem; }
-        .banner__content p { font-size: 1.1rem; }
-    }
 
-    @media (max-width: 768px) {
-        .banner { height: 300px; }
-        .banner__title { font-size: 1.8rem; }
-        .banner__content p { font-size: 1rem; }
-    }
+   
 </style>
    
     <section class="banner__area p-relative z-1">
@@ -134,9 +100,12 @@
                                 <div class="col-xxl-9 col-xl-9 col-lg-10">
                                     <div class="banner__content p-relative z-index-1">
                                         <span class="banner__sub-title wow fade-in-bottom" data-wow-delay="200ms"></span>
+                                        <br>
+                                        <br>
+                                        <br>
                                         <h2 class="banner__title wow fade-in-bottom" data-wow-delay="400ms">
                                             {{ $banner->titre ?? '' }}</h2>
-                                        <p style=" font-family: 'Times New Roman'; color:#ffffff;font-size: 22px; line-height: 2; text-align: justify;" class="h5 wow fade-in-bottom" data-wow-delay="400ms">
+                                        <p style=" font-family: 'Times New Roman'; color:#ffffff;font-size: 22px; line-height: 2; text-align:center;" class="h5 wow fade-in-bottom" data-wow-delay="400ms">
                                             {{ $banner->sous_titre ?? '' }}</p>
 
 
