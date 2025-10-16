@@ -104,9 +104,13 @@
                                         <br>
                                         <br>
                                         <h2 class="banner__title wow fade-in-bottom animated slideInRight" data-wow-delay="400ms">
-                                            {{ $banner->titre ?? '' }}</h2>
+                                          
+                                        {{ \App\Helpers\TranslationHelper::TranslateText($banner->titre ?? '' ) }}</h2>
                                         <p style=" font-family: 'Times New Roman'; color:#ffffff;font-size: 22px; line-height: 2; text-align:center;" class="h5 wow fade-in-bottom animated slideInRight" data-wow-delay="400ms">
-                                            {{ $banner->sous_titre ?? '' }}</p>
+                                           
+                                        
+                                        {{ \App\Helpers\TranslationHelper::TranslateText($banner->sous_titre ?? '' ) }}
+                                        </p>
 
 
                                     </div>
