@@ -136,7 +136,7 @@
                                         <span class="banner__sub-title wow fade-in-bottom" data-wow-delay="200ms"></span>
                                         <h2 class="banner__title wow fade-in-bottom" data-wow-delay="400ms">
                                             {{ $banner->titre ?? '' }}</h2>
-                                        <p class="h5 wow fade-in-bottom" data-wow-delay="400ms">
+                                        <p class="banner__title wow fade-in-bottom" data-wow-delay="400ms" style=" font-family: 'Times New Roman'; color: #ffffff;;font-size: 22px; line-height: 2; text-align: justify;" class="h5 wow fade-in-bottom" data-wow-delay="400ms">
                                             {{ $banner->sous_titre ?? '' }}</p>
 
 
