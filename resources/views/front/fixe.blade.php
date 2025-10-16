@@ -21,7 +21,7 @@ $categories = DB::table('categories')->get();
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <meta name="description" content="Campus-International-Formation-Canada">
- 
+
     <meta name="author" content="soukhinkhan">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico in the root directory -->
@@ -45,7 +45,7 @@ $categories = DB::table('categories')->get();
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
  --}}
-   {{--  <script src="/Script.js"></script> --}}
+    {{-- <script src="/Script.js"></script> --}}
     @yield('SEO')
     @yield('services')
     @yield('blogs')
@@ -252,8 +252,8 @@ $categories = DB::table('categories')->get();
                                         $locales = [
                                         'fr' => ['name' => 'Français', 'flag' => 'https://img.icons8.com/color/20/france-circular.png'],
                                         'en' => ['name' => 'English', 'flag' => 'https://img.icons8.com/color/20/great-britain-circular.png'],
-                                         'de' => ['name' => 'Deutsch', 'flag' => 'https://img.icons8.com/color/20/germany-circular.png'],
-        'es' => ['name' => 'Español', 'flag' => 'https://img.icons8.com/color/20/spain-circular.png'],
+                                        'de' => ['name' => 'Deutsch', 'flag' => 'https://img.icons8.com/color/20/germany-circular.png'],
+                                        'es' => ['name' => 'Español', 'flag' => 'https://img.icons8.com/color/20/spain-circular.png'],
 
                                         ];
                                         $currentLocale = app()->getLocale();
