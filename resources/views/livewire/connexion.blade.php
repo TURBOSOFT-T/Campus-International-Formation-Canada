@@ -127,7 +127,7 @@
                                 <div class="signup-item">
                                     <div class="wrap d-flex justify-content-between">
                                         <h6>{{ \App\Helpers\TranslationHelper::TranslateText('Mot de passe') }}</h6>
-                                        <a href="{{ route('forgot-password') }}">
+                                        <a href="{{ route('forgot_password') }}">
                                             {{ \App\Helpers\TranslationHelper::TranslateText('Mot de passe oublié?') }}
                                         </a>
                                     </div>

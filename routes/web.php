@@ -80,7 +80,7 @@ Route::get('evenements', [EventController::class, 'evenements'])->name("evenemen
 
 
 Route::resource('contacts', ContactController::class, ['only' => ['create', 'store']]);
-Route::get('forgot-password', [ForgotPasswordController::class, 'showForgetPasswordForm'])->name('forgot-password');
+Route::get('forgot_password', [ForgotPasswordController::class, 'showForgetPasswordForm'])->name('forgot_password');
 Route::get('/confirmation', [HomeController::class, 'confirmation'])->name('confirmation');
 Route::get('/logout', [HomeController::class, 'logout']);
 Route::get('/', [HomeController::class, 'home'])->name('home');
