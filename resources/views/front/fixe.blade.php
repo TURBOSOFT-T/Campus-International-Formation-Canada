@@ -592,7 +592,7 @@ $categories = DB::table('categories')->get();
             <div class="row mb-minus-40 footer-wrap">
                 <div class="col-lg-3">
                     <a href="#">
-                        <img src="{{ Storage::url($config->logo) }}" width="100" height="100" alt="logo not found">
+                        <img src="{{ Storage::url($config->logoHeader) }}" width="100" height="100" alt="logo not found">
                     </a>
                     <div class="footer__social mt-20">
                         @if ($config->facebook)

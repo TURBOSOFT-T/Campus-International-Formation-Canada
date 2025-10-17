@@ -22,6 +22,17 @@
                         <span class="text-danger small"> {{ $message }} </span>
                     @enderror
                 </div>
+
+
+                 <div class="col-md-6">
+                    <label class="form-label" for="multicol-username">Logo footer</label>
+
+                    <input type="file" wire:model="logoHeader" accept="image/*" placeholder="votre logo"
+                        class="form-control">
+                    @error('logoHeader')
+                        <span class="text-danger small"> {{ $message }} </span>
+                    @enderror
+                </div>
                 <div class="col-md-6">
                     <label class="form-label" for="multicol-username">Icone</label>
 
